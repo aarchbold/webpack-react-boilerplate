@@ -7,8 +7,10 @@ const HelloWorld = ({ title }) => (
   <div>
     <div className={style['hello-world']}>{title}</div>
     <img src={homeLogo} alt="home logo" width="200" />
-    <img src="https://helios.party/static/images/bg-hero.jpg" alt="home logo" width="340" />
-    
+    <img
+      src="https://helios.party/static/images/bg-hero.jpg"
+      alt="home logo"
+      width="340" />
   </div>
 );
 

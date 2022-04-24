@@ -9,7 +9,14 @@ class App extends Component {
   }
 
   render() {
-    return <HelloWorld title="Hello from React webpack" />;
+    return (
+      <div>
+        <p>Router test</p>
+        <a href="/home">go to home route</a>
+        <HelloWorld title="Hello from React webpack" />
+        ;
+      </div>
+    );
   }
 }
 
